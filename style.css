@@ -19,7 +19,7 @@ header{
 .navbar{
     display: flex;
     align-items: center;
-    padding: .5em 0;
+    padding: 1em 0;
 }
 
 .navbar .logo{
@@ -77,5 +77,50 @@ p.header-sub{
     max-width: 50%;
     border-radius: 3px;
     box-shadow: 7px 7px 5px hsla(0, 0%, 0%, 20%);
+}
+
+/* Info section */
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3em;
+}
+
+.info-section > h2.info-title{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.info-container > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2em 0;
+    gap: 3em;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+li > img{
+    width: 200px;
+    height: 200px;
+    border: #3882f6 solid;
+    border-radius: 10px;
+    object-fit:cover;
+}
+
+li > p.img-sub{
+    font-size: 18px;
+    color: hsla(0, 0%, 0%, 85%);
+    margin: .2em 0;
 }
 
