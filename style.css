@@ -9,3 +9,38 @@
     font-style: normal;
 }
 
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 0 10em;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: .5em 0;
+}
+
+.navbar .logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.navbar-links{
+    margin-left: auto;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;    
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
