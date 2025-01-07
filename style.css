@@ -156,3 +156,39 @@ li > p.img-sub{
     color: #1f2937;
 }
 
+/* CTA section */
+
+.cta-section{
+    padding: 2em 5em;
+}
+
+.cta-container{
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    padding: 2em 5em;
+}
+
+.cta-text{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 18px;
+    gap: 3px;
+    justify-content: center;
+}
+
+.cta-container .cta-text .cta-title{
+    font-weight: bold;
+}
+
+.cta-section .cta-container .signup{
+    margin-left: auto;
+    border: #fff solid;
+    background-color: #3882f6;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 0 2em;
+}
+
