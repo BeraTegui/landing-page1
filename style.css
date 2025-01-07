@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
 *{
     margin: 0;
@@ -122,5 +123,36 @@ li > p.img-sub{
     font-size: 18px;
     color: hsla(0, 0%, 0%, 85%);
     margin: .2em 0;
+}
+
+/* Quote section */
+
+.quote-section{
+    background-color: #e5e7eb;
+    padding: 8em 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-section .quote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60%;
+}
+
+.quote-section .quote-container .quote{
+    font-size: 36px;
+    font-family: "Roboto", serif;
+    font-style: italic;
+    font-weight: 700 !important;
+    color: #1f2937;
+}
+
+.quote-section .quote-container .quote-sub{
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
