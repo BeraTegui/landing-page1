@@ -159,7 +159,7 @@ li > p.img-sub{
 /* CTA section */
 
 .cta-section{
-    padding: 2em 5em;
+    padding: 5em 8em;
 }
 
 .cta-container{
@@ -190,5 +190,15 @@ li > p.img-sub{
     font-size: 18px;
     border-radius: 5px;
     padding: 0 2em;
+}
+
+/* Footer */
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    padding: 1.5em;
 }
 
